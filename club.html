@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Club Login</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <h4 style="background-color: black; color: white; font-weight: normal;">Home Events Join.</h4>
+        <h3 style="background-color: white; color: green; font-weight: normal;">Club Membership</h3>
+
+        <h4> Join the progamming Club to take part in contests, workshops and weekly meetups</h4>
+        </div>
+        <h1>Programming Club </h1>
+        <form action="Login-Confirmed.html" method="post">
+            <fieldset>
+                <legend>Join the club</legend>
+                <label for="full-name">Full Name:</label>
+                <input type="text" class="login_field" id="full-name" min="3" required />
+                <br/>
+                <label for="email">Email:</label>
+                <input type="email" class="login_field" id="email" required >
+                <br/>
+                <label for="student-id">Student ID:</label>
+                <input type="text" class="login_field" id="student-id" placeholder="24-57614-2" />
+                <br/>
+                <label for="age">Age:</label>
+                <input type="text" class="age" id="full-name" min="17" max="40" required />
+                <br/>
+                <label for="membership-type">Membership Type:</label>
+                <input type = "radio" name="membership-type" id="General"/>General
+                <input type = "radio" name="membership-type" id="Executive"/>Executive
+                <br/>
+                <label for="preferred-club">Preferred Club:</label>
+                <select>
+                    <option value="">Select a club</option>
+                    <option value="normal">Normal</option>
+                    <option value="vip">VIP</option>
+                    <option value="officials">Officials</option>    
+                </select>
+                <br/>
+                <label for="join-reason">Why do you want to join?</label>
+                <br/>
+                <textarea name="" id="" style="width: 400px; height: 50px; max="200"></textarea>
+                <br/>
+                <input type="checkbox" />I agree to the club rules
+                <br/>
+                <br/>
+                <input type="submit" value="Join Now" />
+            </fieldset>
+        </form>
+    </body>
+</html>
